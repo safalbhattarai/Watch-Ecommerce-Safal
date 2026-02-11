@@ -1,11 +1,13 @@
 import React from 'react'
+import home from './pages/home'
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+     <Routes>
+      <Route path=  '/ ' element={<home/>}/>
+
+     </Routes>
       
     </div>
   )
